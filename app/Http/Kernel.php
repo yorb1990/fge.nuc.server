@@ -27,6 +27,9 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $middlewareGroups = [
+        'fge-tok' => [
+            \Barryvdh\Cors\HandleCors::class,
+        ],
         'web' => [
             \App\Http\Middleware\EncryptCookies::class,
             \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class,
@@ -40,10 +43,7 @@ class Kernel extends HttpKernel
         'api' => [
             'throttle:60,1',
             'bindings',
-        ],
-        'fge-tok' => [
-            \Barryvdh\Cors\HandleCors::class,
-        ],
+        ],        
     ];
 
     /**
