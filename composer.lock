@@ -467,12 +467,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yorb1990/fge.nucc.git",
-                "reference": "610856dc67cc994e5bbe7499f05948d70de7de1a"
+                "reference": "1b8729be23f6be71a8001affa31b22c93b140f47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yorb1990/fge.nucc/zipball/610856dc67cc994e5bbe7499f05948d70de7de1a",
-                "reference": "610856dc67cc994e5bbe7499f05948d70de7de1a",
+                "url": "https://api.github.com/repos/yorb1990/fge.nucc/zipball/1b8729be23f6be71a8001affa31b22c93b140f47",
+                "reference": "1b8729be23f6be71a8001affa31b22c93b140f47",
                 "shasum": ""
             },
             "require": {
@@ -497,7 +497,7 @@
                 }
             ],
             "description": "Algoritmo de nuc (verificacion)",
-            "time": "2018-07-10T22:25:37+00:00"
+            "time": "2018-07-10T22:39:25+00:00"
         },
         {
             "name": "fge/nucg",
@@ -505,12 +505,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yorb1990/fge.nucg.git",
-                "reference": "1492ba952bf2c4d19f79ec6de0985918c5efa01e"
+                "reference": "3531498d3852708f0e99f3707935a0144073663d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yorb1990/fge.nucg/zipball/1492ba952bf2c4d19f79ec6de0985918c5efa01e",
-                "reference": "1492ba952bf2c4d19f79ec6de0985918c5efa01e",
+                "url": "https://api.github.com/repos/yorb1990/fge.nucg/zipball/3531498d3852708f0e99f3707935a0144073663d",
+                "reference": "3531498d3852708f0e99f3707935a0144073663d",
                 "shasum": ""
             },
             "require": {
@@ -535,7 +535,7 @@
                 }
             ],
             "description": "packete de servicio de generacion de nuc",
-            "time": "2018-07-10T19:56:12+00:00"
+            "time": "2018-07-11T01:14:32+00:00"
         },
         {
             "name": "fge/token",
